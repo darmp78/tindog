@@ -1,0 +1,198 @@
+
+
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navegation bar */
+
+.navbar{
+    padding: 0  0 4.5rem ;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-style: 1.2rem;
+    font-weight: 300;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+/* Button dowload */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Tittle IMG */
+.tittle-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Features */
+
+#features{
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.container-fluid-features{
+    padding: 7%;
+}
+
+.h3-features{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.p-features{
+    color: #8f8f8f;
+}
+
+.ico-features{
+    color: #ef8172;
+    padding: 0 0 10px;
+}
+
+.ele-feature{
+    padding: 30px;
+}
+
+.ico-features:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.testi-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #ef8172;    
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 7% 15%;
+   
+    
+}
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.card-item{
+    margin: 10px;
+    text-align: center;
+}
+
+.btn-card-item{
+    margin: 20px;
+}
+
+.card-row{
+    padding-top: 10px;
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 5% 15% 7%;
+
+}
+
+.h3-cta{
+    font-size: 2rem;
+
+}
+
+/* footer */
+
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.ico-footer{
+    margin: 5px;
+}
+
+.p-footer{
+    font-size: 0.7rem;
+    margin: 5px;
+}
+/* Media query breakpoints */
+
+@media (max-width:1000px){
+   .tittle-img{
+        transform: rotate(0);
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+
+}
